@@ -18672,7 +18672,8 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "fetchArticlesByCategory", ()=>fetchArticlesByCategory);
 var _axios = require("axios");
 var _axiosDefault = parcelHelpers.interopDefault(_axios);
-const FLASK_API_BASE = "http://127.0.0.1:5000";
+// const FLASK_API_BASE = "http://127.0.0.1:5000";
+const FLASK_API_BASE = "https://api.wikiscroll.xyz";
 async function fetchArticlesByCategory(cat = "cs") {
     const res = await (0, _axiosDefault.default).get(`${FLASK_API_BASE}/`, {
         params: {
