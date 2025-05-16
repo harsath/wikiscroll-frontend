@@ -232,9 +232,13 @@ p {
 .bookmark-title {
   white-space: nowrap;
   text-overflow: ellipsis;
+  color: #fff;
+  cursor: pointer;
   margin-bottom: .3rem;
   font-size: 1rem;
   font-weight: bold;
+  text-decoration: underline;
+  display: inline-block;
   overflow: hidden;
 }
 
@@ -288,5 +292,9 @@ p {
 .bookmark-open-btn:hover {
   background: #111;
   border-color: #888;
+}
+
+.link-no-style {
+  text-decoration: none;
 }
 /*# sourceMappingURL=public.d91c94e1.css.map */

@@ -23636,20 +23636,23 @@ const BookmarksModal = ({ bookmarks, removeBookmark, onClose })=>{
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                         className: "bookmark-info",
                                         children: [
-                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
                                                 className: "bookmark-title",
+                                                href: `https://en.wikipedia.org/wiki/${encodeURIComponent(b.title)}`,
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
                                                 children: b.title
                                             }, void 0, false, {
                                                 fileName: "src/components/BookmarksModal.jsx",
-                                                lineNumber: 35,
-                                                columnNumber: 17
+                                                lineNumber: 36,
+                                                columnNumber: 21
                                             }, undefined),
                                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                                 className: "bookmark-desc",
                                                 children: b.desc
                                             }, void 0, false, {
                                                 fileName: "src/components/BookmarksModal.jsx",
-                                                lineNumber: 36,
+                                                lineNumber: 44,
                                                 columnNumber: 17
                                             }, undefined)
                                         ]
@@ -23663,12 +23666,12 @@ const BookmarksModal = ({ bookmarks, removeBookmark, onClose })=>{
                                         onClick: ()=>removeBookmark(b.title),
                                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _ci.CiBookmarkRemove), {}, void 0, false, {
                                             fileName: "src/components/BookmarksModal.jsx",
-                                            lineNumber: 42,
+                                            lineNumber: 50,
                                             columnNumber: 17
                                         }, undefined)
                                     }, void 0, false, {
                                         fileName: "src/components/BookmarksModal.jsx",
-                                        lineNumber: 38,
+                                        lineNumber: 46,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
